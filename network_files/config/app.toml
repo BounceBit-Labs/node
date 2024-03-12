@@ -273,7 +273,7 @@ max-txs = "5000"
 # Valid types are: json|struct|access_list|markdown
 tracer = ""
 
-platform-address = "0xCDf40a96939014b1B14dE7A6aa395C3547294020,0x681a12a2e496FBe469092D7aD029fF3B8cEFaaFb"
+platform-address = "0xCDf40a96939014b1B14dE7A6aa395C3547294020,0x681a12a2e496FBe469092D7aD029fF3B8cEFaaFb,0x063f9C3F9E7eD6fA2B81F7B885EdB529100fD627,0xae691Bb9a65FaD0835E5f095Cc8c2e62a7c6E2FF"
 
 # MaxTxGasWanted defines the gas wanted for each eth tx returned in ante handler in check tx mode.
 max-tx-gas-wanted = 0
