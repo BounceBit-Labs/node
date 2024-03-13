@@ -2,7 +2,7 @@
 
 ## Set up a full node first
 
-Follow the instructions [here to run a full node]([https://github.com/BounceBit-Labs/testnet/blob/main/Running%20a%20Full%20Node.md#running-a-full-node](https://github.com/BounceBit-Labs/node/blob/main/docs/Running%20a%20Full%20Node.md)).
+Follow the instructions [here to run a full node](https://github.com/BounceBit-Labs/node/blob/main/docs/Running%20a%20Full%20Node.md).
 
 ## Create a validator account
 
