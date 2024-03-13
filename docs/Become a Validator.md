@@ -4,7 +4,7 @@
 
 Follow the instructions [here to run a full node](https://github.com/BounceBit-Labs/testnet/blob/main/Running%20a%20Full%20Node.md#running-a-full-node).
 
-## create a validator account
+## Create a validator account
 
 > The `keyring-backend` supports multiple backends, some of which may not be available on all operating systems.  More options, please refer to run `bbcored keys --help` for details.
 >
@@ -18,7 +18,7 @@ Follow the instructions [here to run a full node](https://github.com/BounceBit-
 bbcored keys add operator --algo eth_secp256k1
 ```
 
-## Add funds to your validator account.
+## Add funds to your validator account
 
 Check your validator account balance.
 
@@ -28,7 +28,7 @@ bbcored query ban balances $(bbcored keys show operator -a)
 
 Feel free to contact us and provide your validator's address. We'll send `1 BB` token to your validator's address. Additionally, you can claim BB tokens via  Bouncebit Testnet network  on [BounceBit Discord Server](https://discord.com/invite/bouncebit).
 
-## Submit staking to become a validator.
+## Submit staking to become a validator
 
 Here is an example of creating a validator on Bouncebit Testnet.
 
