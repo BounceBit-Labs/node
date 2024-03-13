@@ -210,10 +210,10 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = ""
+seeds = "5e7d7bc715d9063074a8cdc6354f8857dad1d79f@testnet-seed-node-02.bouncebit.io:26656,0f8048afdab92366af3c2bf6eeed02c641817a80@testnet-seed-node-01.bouncebit.io:26656,5eabd9aa2051e4d5d8957e4c037f4ecb6a2bc832@testnet-seed-node-03.bouncebit.io:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "5e7d7bc715d9063074a8cdc6354f8857dad1d79f@testnet-seed-node-02.bouncebit.io:26656,0f8048afdab92366af3c2bf6eeed02c641817a80@testnet-seed-node-01.bouncebit.io:26656,5eabd9aa2051e4d5d8957e4c037f4ecb6a2bc832@testnet-seed-node-03.bouncebit.io:26656"
+persistent_peers = ""
 
 # Path to address book
 addr_book_file = "config/addrbook.json"
