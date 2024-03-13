@@ -2,7 +2,7 @@
 
 
 
-### Hardware requirements[​](https://docs.sui.io/guides/operator/sui-full-node#hardware-requirements "Direct link to Hardware requirements")
+### Hardware requirements
 
 Suggested minimum hardware to run a Bouncebit Testnet Full node:
 
@@ -10,7 +10,7 @@ Suggested minimum hardware to run a Bouncebit Testnet Full node:
 |-----------------------------|-------|-------------------|
 | 8 physical cores / 16 vCPUs | 32 GB | 500 GB NVMe drive |
 
-### Software requirements[​](https://docs.sui.io/guides/operator/sui-full-node#software-requirements "Direct link to Software requirements")
+### Software requirements
 
 Bouncebit recommends running Testnet Full nodes on Linux. Bouncebit supports the Ubuntu and Debian distributions. 
 
@@ -49,7 +49,7 @@ You can download the latest binaries from [Release](https://github.com/BounceBit
 ```
 cd $WORKSPACE
 
-curl -o /bin/bbcored https://github.com/BounceBit-Labs/testnet/releases/download/v0.12.0/bbcored
+curl -o bin/bbcored https://github.com/BounceBit-Labs/testnet/releases/download/v0.12.0/bbcored
 chmod +x /bin/bbcored
 
 ln -s $WORKSPACE/bin/bbcored /usr/local/bin/bbcored
@@ -102,7 +102,7 @@ ExecStart=bbcored start --log_level info --home <WORKSPACE> --chain-id bouncebit
 WantedBy=multi-user.target
 ```
 
-**start the service**
+**Start the service**
 
 ```
 systemctl daemon-reload
