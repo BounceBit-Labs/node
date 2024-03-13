@@ -6,9 +6,9 @@
 
 Suggested minimum hardware to run a Bouncebit Testnet Full node:
 
-| CPUs                       | RAM   | Storage           |
-| -------------------------- | ----- | ----------------- |
-| 4 physical cores / 8 vCPUs | 16 GB | 300 GB NVMe drive |
+| CPUs                        | RAM   | Storage           |
+|-----------------------------|-------|-------------------|
+| 8 physical cores / 16 vCPUs | 32 GB | 500 GB NVMe drive |
 
 ### Software requirements[​](https://docs.sui.io/guides/operator/sui-full-node#software-requirements "Direct link to Software requirements")
 
