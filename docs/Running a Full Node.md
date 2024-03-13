@@ -44,12 +44,12 @@ useradd -m -s /bin/bash bouncebit
 
 ### Download the bbcored binary
 
-You can download the latest binaries from [Release](https://github.com/BounceBit-Labs/testnet/releases/tag/v0.12.0)
+You can download the latest binaries from [Release](https://github.com/BounceBit-Labs/node/releases/tag/v0.12.0)
 
 ```
 cd $WORKSPACE
 
-curl -o bin/bbcored https://github.com/BounceBit-Labs/testnet/releases/download/v0.12.0/bbcored
+curl -o bin/bbcored https://github.com/BounceBit-Labs/node/releases/download/v0.12.0/bbcored
 chmod +x /bin/bbcored
 
 ln -s $WORKSPACE/bin/bbcored /usr/local/bin/bbcored
