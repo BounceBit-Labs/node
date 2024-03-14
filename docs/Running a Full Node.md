@@ -20,6 +20,12 @@ Make sure the architecture is [x86_64]([x86-64 - Wikipedia](https://en.wikipedia
 Ubuntu, 22.04 LTS, amd64
 ```
 
+### Network requirements
+
+Make sure that the specified ports for the following types of nodes are accessible from the public internet.
+| Node Type | Port  | Protocol |
+| --------- | ----- | -------- |
+| Fullnode / Validator  | 26656 | TCP      |
 
 
 ## Configure a Full node
