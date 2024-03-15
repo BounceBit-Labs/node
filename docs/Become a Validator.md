@@ -46,7 +46,7 @@ bbcored tx staking create-validator \
   --commission-rate="0.05" \
   --commission-max-rate="0.10" \
   --commission-max-change-rate="0.01" \
-  --min-self-delegation="100000000000000000000000" \
+  --min-self-delegation="1000000000" \
   --gas="10000000" \
   --gas-prices="8bit" \
   --from=operator \
