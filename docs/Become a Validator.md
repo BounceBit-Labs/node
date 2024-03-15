@@ -23,7 +23,7 @@ bbcored keys add operator --algo eth_secp256k1
 Check your validator account balance.
 
 ```
-bbcored query ban balances $(bbcored keys show operator -a)
+bbcored query bank balances $(bbcored keys show operator -a)
 ```
 
 Feel free to contact us and provide your validator's address. We'll send `1 BB` token to your validator's address. Additionally, you can claim BB tokens via  Bouncebit Testnet network  on [BounceBit Discord Server](https://discord.com/invite/bouncebit).
