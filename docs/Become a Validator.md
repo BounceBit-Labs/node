@@ -86,3 +86,11 @@ Once your validator is bonded, you can check if it is in the validator set by ex
 ```
 bbcored query tendermint-validator-set | grep $(bbcored tendermint show-address)
 ```
+
+## Unjail Your Validator
+
+If your validator remains out-of-sync with the chain, its status will be altered to "**jailed**" Upon restoring synchronization, ensuring its block height aligns with the chain, you can use the following command to "**unjail**" it.
+
+```
+bbcored  tx slashing unjail --from=operator --gas-prices="1000000bit"
+```
