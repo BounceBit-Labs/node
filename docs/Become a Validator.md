@@ -48,7 +48,7 @@ bbcored tx staking create-validator \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1000000000" \
   --gas="10000000" \
-  --gas-prices="8bit" \
+  --gas-prices="50000000000bit" \
   --from=operator \
   --home=$WORKSPACE
 ```
