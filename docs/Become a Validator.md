@@ -40,7 +40,7 @@ bbcored tendermint show-validator
 
 ```
 bbcored tx staking create-validator \
-  --amount="100000000000000000000000bit" \
+  --amount="1000000000000000000bit" \
   --pubkey=$(bbcored tendermint show-validator) \
   --moniker="<YOUR_MONIKER>" \
   --commission-rate="0.05" \
