@@ -48,7 +48,7 @@ bbcored tx staking create-validator \
   --commission-max-change-rate="0.01" \
   --min-self-delegation="1000000000" \
   --gas="10000000" \
-  --gas-prices="50000000000bit" \
+  --gas-prices="10000000000bit" \
   --from=operator \
   --home=$WORKSPACE
 ```
@@ -92,5 +92,5 @@ bbcored query tendermint-validator-set | grep $(bbcored tendermint show-address)
 If your validator remains out-of-sync with the chain, its status will be altered to "**jailed**" Upon restoring synchronization, ensuring its block height aligns with the chain, you can use the following command to "**unjail**" it.
 
 ```
-bbcored  tx slashing unjail --from=operator --gas-prices="1000000bit"
+bbcored  tx slashing unjail --from=operator --gas-prices="10000000000bit"
 ```
