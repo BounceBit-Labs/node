@@ -82,7 +82,20 @@ config/client.toml
 config/config.toml
 config/genesis.json
 ```
+If you are running as a validator and seeking to save disk space, we recommend simply using the following settings.
 
+**app.toml**
+```
+pruning = "custom"
+
+# These are applied if and only if the pruning strategy is custom.
+pruning-keep-recent = "100"
+pruning-interval = "10"
+```
+**config.toml**
+```
+indexer = "null"
+```
 ### Running Node via systemd
 
 We recommend using Systemd to manage Bouncebit service and check logs. 
