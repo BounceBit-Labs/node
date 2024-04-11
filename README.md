@@ -1,6 +1,6 @@
 ## Bouncebit Testnet
 
-Welcome to Bouncebit Testnet.
+Welcome to Bouncebit Testnet
 
 - This repo contains `docs/` and deployment guides for [Running a Full Node](https://github.com/BounceBit-Labs/node/blob/main/docs/Running%20a%20Full%20Node.md) and [Becoming a Validator](https://github.com/BounceBit-Labs/testnet/blob/main/docs/Become%20a%20Validator.md).
   
