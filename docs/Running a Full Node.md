@@ -47,7 +47,6 @@ useradd -m -s /bin/bash bouncebit
 ```
 
 
-
 ### Download the bbcored binary
 
 You can download the latest binaries from [Release](https://github.com/BounceBit-Labs/node/releases/tag/v0.12.0)
@@ -59,8 +58,6 @@ wget https://github.com/BounceBit-Labs/node/releases/download/v0.12.0/bbcored
 chmod +x bbcored
 
 ln -s $WORKSPACE/bbcored /usr/local/bin/bbcored
-
-
 ```
 
 ### Init Bouncebit Testnet Network
@@ -133,6 +130,36 @@ systemctl enable bouncebit.service
 
 ```
 journalctl -o cat -f -u bouncebit
+```
+### StateSync
+With fast sync a node is downloading all of the data of an application from genesis and verifying it. With state sync your node will download data related to the head or near the head of the chain and verify the data. This leads to drastically shorter times for joining a network.
+
+
+Fetch the latest block height.
+
+```bash
+curl -s http://18.140.239.235:26657/block  | jq -r '.result.block.header.height'
+
+959266
+```
+
+Fetch the trust hash of the latest block height.
+
+```bash
+curl -s "http://18.140.239.235:26657/block?height=959266" | jq -r '.result.block_id.hash'
+
+85CD36BAB77E5338966B6033BB8D2C3701385D424F02650319F8A62A32D3E9A7
+```
+
+Enable state-sync, add RPC servers
+```bash
+
+[statesync]
+
+enable = true
+rpc_servers = "18.140.239.235:26657,18.143.160.245:26657"
+trust_height = 959266
+trust_hash = "85CD36BAB77E5338966B6033BB8D2C3701385D424F02650319F8A62A32D3E9A7"
 ```
 
 ## Monitoring
